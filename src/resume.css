@@ -1,0 +1,204 @@
+/* ================= Variables ========================= */
+
+:root{
+    --theme-color: #5021ff;
+    --theme-font-section:  sans-serif;
+    --theme-font-header: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --resume-background: #051922;
+}
+
+/* ================= Page layout start ================= */
+
+body{
+    background-color: var(--resume-background);
+}
+
+button{
+    transform: translate(60px,20px);
+}
+
+#root {
+    width: 21cm;
+    height: 29.5cm;
+    /* box-shadow: 0 0 8px 0 black; */
+    border: 3px solid gray;
+    margin: 3% auto;
+    background-image: url(./background.png);
+    border-radius: 8px;
+    background-size: 21cm;
+    background-repeat: no-repeat;
+    background-color: #f2f2f2;
+}
+
+
+.section-container {
+    display: flex;
+    gap: 2px;
+    font-family: var(--theme-font-section);
+}
+
+#header {
+    max-width: none;
+    height: 5.5cm;
+    /* border: 2px solid black; */
+    color: black;
+    font-weight: bold;
+    font-family: var(--theme-font-header);
+}
+
+#left, #right {
+    width: 11cm;
+    height: 24cm;
+    /* border: 2px solid black; */
+}
+
+/* ================= Page layout end ================= */
+
+/* ================= Header layout start ================= */
+.user-details {
+    padding: 20px 0 0 20px;
+}
+
+.user-details i,.education-duration i, .experience-duration i {
+    color: var(--theme-color);
+}
+
+.name {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.designation {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: var(--theme-color);
+}
+
+.contact-details {
+    display: flex;
+    gap: 2cm;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.address {
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+img {
+    width: 4cm;
+    height: 4cm;
+    border-radius: 100%;
+    margin: 40px 0 0 40px;
+    border: 2px solid var(--theme-color);
+}
+
+/* ================= Header layout end ================= */
+
+/* ================= Section Left layout start ================= */
+#left {
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.education-title, .experience-title, .tech-skills,
+.tech-framework, .tech-tools, .tech-projects{
+    color: var(--theme-color);
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: var(--theme-font-header);
+}
+
+hr{
+    margin: 8px 0px 8px 0px;
+}
+
+
+.education-university, .education-course, .experience-company, .experience-designation{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 5px 0 5px 0;
+    font-family: var(--theme-font-header);
+}
+
+.education-course, .experience-company{
+    color: var(--theme-color);
+}
+
+.education-duration, .experience-duration{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 5px 0 5px 0;
+}
+
+ul{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.seperator-left{
+    width: 9.5cm;
+    border: 1px solid;
+    margin: 5px 0;
+}
+
+.sub-seperator-left{
+    width: 9.5cm;
+}
+
+.sub-seperator-left, .sub-seperator-right{
+    border: 1px dashed black;
+    opacity: 0.5;
+    margin: 5px 0;
+}
+
+/* ================= Section Left layout end ================= */
+
+/* ================= Section right layout start ================= */
+
+.progress{
+    height: 5px;
+    margin: 10px 0;
+}
+
+.skill-fa{
+    font-size: 25px;
+}
+
+.progress-bar{
+    border-radius: 10px;
+    transform: translateX(-12px);
+    background-color: var(--theme-color);
+}
+
+.tools-list{
+    text-transform: capitalize;
+    font-weight: bold;
+    margin: 0;
+}
+
+.tools-list div {
+    border: 2px solid var(--theme-color);
+    border-radius: 15px;
+    margin: 2px;
+}
+
+.seperator-right, .sub-seperator-right{
+    width: 10cm;
+}
+
+.seperator-right{
+    border: 1px solid;
+    margin: 5px 0;
+}
+
+.project-url{
+    color: var(--theme-color);
+    font-weight: bold;
+    font-size: 14px;
+}
+/* ================= Section right layout end ================= */
