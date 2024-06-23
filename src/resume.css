@@ -1,7 +1,8 @@
 /* ================= Variables ========================= */
 
 :root{
-    --theme-color: #5021ff;
+    /* --theme-color: #5021ff; */
+    --theme-color: #084298;
     --theme-font-section:  sans-serif;
     --theme-font-header: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --resume-background: #051922;
@@ -21,7 +22,8 @@ button{
     width: 21cm;
     height: 29.5cm;
     /* box-shadow: 0 0 8px 0 black; */
-    border: 3px solid gray;
+    /* border: 3px solid gray; */
+    border: 3px solid var(--theme-color);
     margin: 3% auto;
     background-image: url(./background.png);
     border-radius: 8px;
