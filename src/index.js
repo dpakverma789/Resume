@@ -75,6 +75,7 @@ const info =
 const projects = [
   'https://managerpass.vercel.app',
   'https://readzara.vercel.app',
+  'https://django-project-apis.vercel.app',
   'https://github.com/dpakverma789/mini-projects'
 ]
 

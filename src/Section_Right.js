@@ -80,7 +80,7 @@ function SECTION_RIGHT(props) {
                 <div className='tools-list row'>
                     <div className='col-3'>django</div>
                     <div className='col-5'>RESTframework</div>
-                    <div className='col-2'>react</div>
+                    <div className='col-3'>reactJs</div>
                     <div className='col-2'>odoo</div>
                 </div>
                 <br />
@@ -90,6 +90,7 @@ function SECTION_RIGHT(props) {
                     <div className='col-3'>pycharm</div>
                     <div className='col-3'>vscode</div>
                     <div className='col-2'>git</div>
+                    <div className='col-3'>postgres</div>
                     <div className='col-2'>jira</div>
                     <div className='col-2'>figma</div>
                     <div className='col-3'>postman</div>
