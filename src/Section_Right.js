@@ -28,7 +28,7 @@ function SECTION_RIGHT(props) {
                     <div className='tech-skill row col-6'>
                         <i className="fa-brands fa-html5 skill-fa col-3"></i>
                         <div className="progress col-9">
-                            <div className="progress-bar" role="progressbar" style={{ width: 40 }}
+                            <div className="progress-bar" role="progressbar" style={{ width: 50 }}
                                 aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
@@ -36,7 +36,7 @@ function SECTION_RIGHT(props) {
                     <div className='tech-skill row col-6'>
                         <i className="fa-brands fa-python skill-fa col-3"></i>
                         <div className="progress col-9">
-                            <div className="progress-bar" role="progressbar" style={{ width: 30 }}
+                            <div className="progress-bar" role="progressbar" style={{ width: 40 }}
                                 aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
@@ -44,7 +44,7 @@ function SECTION_RIGHT(props) {
                     <div className='tech-skill row col-6'>
                         <i className="fa-brands fa-css3-alt skill-fa col-3"></i>
                         <div className="progress col-9">
-                            <div className="progress-bar" role="progressbar" style={{ width: 40 }}
+                            <div className="progress-bar" role="progressbar" style={{ width: 50 }}
                                 aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
@@ -52,7 +52,7 @@ function SECTION_RIGHT(props) {
                     <div className='tech-skill row col-6'>
                         <i className="fa-brands fa-react skill-fa col-3"></i>
                         <div className="progress col-9">
-                            <div className="progress-bar" role="progressbar" style={{ width: 20 }}
+                            <div className="progress-bar" role="progressbar" style={{ width: 30 }}
                                 aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
@@ -60,7 +60,7 @@ function SECTION_RIGHT(props) {
                     <div className='tech-skill row col-6'>
                         <i className="fa-brands fa-square-js skill-fa col-3"></i>
                         <div className="progress col-9">
-                            <div className="progress-bar" role="progressbar" style={{ width: 20 }}
+                            <div className="progress-bar" role="progressbar" style={{ width: 30 }}
                                 aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
@@ -68,7 +68,7 @@ function SECTION_RIGHT(props) {
                     <div className='tech-skill row col-6'>
                         <i className="fa-solid fa-database skill-fa col-3" style={{ color: "black" }}></i>
                         <div className="progress col-9">
-                            <div className="progress-bar" role="progressbar" style={{ width: 40 }}
+                            <div className="progress-bar" role="progressbar" style={{ width: 50 }}
                                 aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>

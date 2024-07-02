@@ -3,8 +3,9 @@
 :root{
     /* --theme-color: #5021ff; */
     --theme-color: #084298;
-    --theme-font-section:  sans-serif;
-    --theme-font-header: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --theme-font-section:  "Exo 2";
+    /* --theme-font-header: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    --theme-font-header: "Exo 2";
     --resume-background: #051922;
 }
 
@@ -175,6 +176,7 @@ ul{
     border-radius: 10px;
     transform: translateX(-12px);
     background-color: var(--theme-color);
+    box-shadow: 0px 0px 8px 8px var(--theme-color);
 }
 
 .tools-list{
@@ -187,6 +189,7 @@ ul{
     border: 2px solid var(--theme-color);
     border-radius: 15px;
     margin: 2px;
+    box-shadow: 1px 1px 3px 0px;
 }
 
 .seperator-right, .sub-seperator-right{

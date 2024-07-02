@@ -37,8 +37,8 @@ const info =
         "location": "mumbai, MH",
         "responsibility": [
           "Hands on odoo ERP python (MVC) framework",
-          "tech used odoo ORM, postgresDB, XMl, JS, APIs",
-          "managing clients & inhouse odoo module"
+          "Tech used odoo ORM, postgresDB, XMl, JS, APIs",
+          "Managing inhouse odoo modules"
         ]
       },
     
@@ -49,8 +49,8 @@ const info =
         "location": "noida, UP",
         "responsibility": [
           "Hands on odoo ERP python (MVC) framework",
-          "tech used odoo ORM, postgresDB, XMl, JS, APIs",
-          "odoo modules: sales, purchase, crm, website, accounts"
+          "Tech used odoo ORM, postgresDB, XMl, JS, APIs",
+          "Odoo modules: sales, purchase, crm, website, accounts, inventory"
         ]
       },
 
@@ -76,7 +76,8 @@ const projects = [
   'https://managerpass.vercel.app',
   'https://readzara.vercel.app',
   'https://django-project-apis.vercel.app',
-  'https://github.com/dpakverma789/mini-projects'
+  'https://github.com/dpakverma789/mini-projects',
+  'https://github.com/dpakverma789/Odoo'
 ]
 
  
