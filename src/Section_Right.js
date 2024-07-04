@@ -1,7 +1,7 @@
 import './resume.css';
 
 function PROJECTS(props){
-    const projects_list =  props.techProjects.arguments.projects;
+    const projects_list =  props.techProjects.arguments.Projects;
     const itemList = projects_list.map((project,i)=>
         <>
             <div className={'project_'+i}>

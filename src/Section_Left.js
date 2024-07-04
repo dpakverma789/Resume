@@ -2,7 +2,7 @@ import "./resume.css";
 
 
 function EducationList(props) {
-    const education_list = props.eduction.user_info.education;
+    const education_list = props.eduction.arguments.Education;
     const listItems = education_list.map((item,i) =>
     <>
         <div className={"education-section_"+i}>
@@ -33,7 +33,7 @@ function Responsibility(props){
 
 
 function ExperienceList(props) {
-    const experience_list = props.experience.user_info.experience;
+    const experience_list = props.experience.arguments.Experience;
     const listItems = experience_list.map((item,i) =>
     <>
         <div className={"experience-section_"+i}>

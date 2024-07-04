@@ -12,8 +12,8 @@ const user_details = {
   "address": "udaipur, rajasthan"
 }
 
-const info = {
-  "education": [
+const LeftSectionArguments = {
+  "Education": [
     {
       "course": "master of business administration (I.T)",
       "university": "narsee monjee inst. of management",
@@ -28,7 +28,7 @@ const info = {
     }
   ],
 
-  "experience": [
+  "Experience": [
     {
       "company": "logicloop venture pvt. ltd.",
       "designation": "software engineer",
@@ -73,7 +73,7 @@ const info = {
 
 
 const RightSectionArguments = {
-  "projects": [
+  "Projects": [
     'https://managerpass.vercel.app',
     'https://readzara.vercel.app',
     'https://django-project-apis.vercel.app',
@@ -162,7 +162,7 @@ root.render(
   <>
     <HEADER user={user_details} />
     <div className='section-container'>
-      <SECTION_LEFT user_info={info} />
+      <SECTION_LEFT arguments={LeftSectionArguments} />
       <SECTION_RIGHT arguments={RightSectionArguments} />
     </div>
   </>
