@@ -81,6 +81,17 @@ const RightSectionArguments = {
     'https://github.com/dpakverma789/Odoo'
   ],
 
+  "otherlinks": [
+    {
+      'icon': "fa-brands fa-linkedin",
+      'url': "https://linkedin.com/in/deepak-verma-07144012a"
+    },
+    {
+      'icon': "fa-brands fa-hackerrank",
+      'url': "https://hackerrank.com/profile/dpakverma1234"
+    },
+  ],
+
   "TechGraphic": [
     {
       "icon": "fa-brands fa-html5",

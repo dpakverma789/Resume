@@ -14,6 +14,20 @@ function PROJECTS(props){
     return(itemList);
 }
 
+function LINKS(props){
+    const other_links =  props.otherlinks.arguments.otherlinks;
+    const itemList = other_links.map((link,i)=>
+        <>
+            <div className={'link_'+i}>
+                <i className={'other-link-icon '+link.icon}></i>&nbsp;&nbsp;&nbsp;
+                <a className='project-url' target="_blank" rel="noreferrer" href={link.url}>{link.url.slice(8,)}</a>
+            </div>
+            <div className='sub-seperator-right'/>
+        </>
+    );
+    return(itemList);
+}
+
 
 function TECH_SKILLS(props) {
     const TechList = props.techSkills.arguments.TechGraphic;
@@ -68,10 +82,16 @@ function SECTION_RIGHT(props) {
                    <TOOL_LIST toolList = {props}/>
                 </div>
                 <br />
-                <div className='tech-projects'>projects</div>
+                <div className='tech-projects'>projects links</div>
                 <div className='seperator-right'/>
                 <div className='project-list'>
                     <PROJECTS techProjects = {props}/>
+                </div>
+                <br />
+                <div className='other-links'>Other Links</div>
+                <div className='seperator-right'/>
+                <div className='links'>
+                    <LINKS otherlinks = {props}/>
                 </div>
             </section>
         </>

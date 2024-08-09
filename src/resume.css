@@ -106,7 +106,7 @@ img {
 }
 
 .education-title, .experience-title, .tech-skills,
-.tech-framework, .tech-tools, .tech-projects{
+.tech-framework, .tech-tools, .tech-projects, .other-links{
     color: var(--theme-color);
     font-size: 16px;
     font-weight: bold;
@@ -205,5 +205,10 @@ ul{
     color: var(--theme-color);
     font-weight: bold;
     font-size: 14px;
+}
+
+.other-link-icon{
+    color: var(--theme-color);
+    font-size: 20px;
 }
 /* ================= Section right layout end ================= */
