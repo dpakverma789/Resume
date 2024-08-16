@@ -5,7 +5,7 @@ function PROJECTS(props){
     const itemList = projects_list.map((project,i)=>
         <>
             <div className={'project_'+i}>
-                <i className="fa-solid fa-code-branch"></i>&nbsp;&nbsp;&nbsp;
+            <i className="fa-solid fa-up-right-from-square"></i>&nbsp;&nbsp;&nbsp;
                 <a className='project-url' target="_blank" rel="noreferrer" href={project}>{project.slice(8,)}</a>
             </div>
             <div className='sub-seperator-right'/>
@@ -66,7 +66,6 @@ function SECTION_RIGHT(props) {
                     <TECH_SKILLS techSkills = {props}/>
                 </div>
                 <br />
-                <br />
                 <div className='tech-framework'>framework & library</div>
                 <div className='seperator-right'/>
                 <div className='tools-list row'>
@@ -74,6 +73,7 @@ function SECTION_RIGHT(props) {
                     <div className='col-5'>RESTframework</div>
                     <div className='col-3'>reactJs</div>
                     <div className='col-2'>odoo</div>
+                    <div className='col-3'>requests</div>
                 </div>
                 <br />
                 <div className='tech-tools'>used Tools</div>

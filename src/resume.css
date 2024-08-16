@@ -42,7 +42,7 @@ button{
 
 #header {
     max-width: none;
-    height: 5.5cm;
+    height: 5cm;
     /* border: 2px solid black; */
     color: black;
     font-weight: bold;
@@ -141,6 +141,10 @@ hr{
 ul{
     font-size: 14px;
     font-weight: bold;
+}
+
+ul li{
+    list-style-type: square;
 }
 
 .seperator-left{

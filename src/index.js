@@ -9,7 +9,7 @@ const user_details = {
   "designation": "software developer",
   "phone": "+91-8955160103",
   "email": "dpakverma789@gmail.com",
-  "address": "udaipur, rajasthan"
+  "address": "udaipur, rajasthan (Remote Working)"
 }
 
 const LeftSectionArguments = {
@@ -31,13 +31,15 @@ const LeftSectionArguments = {
   "Experience": [
     {
       "company": "logicloop venture pvt. ltd.",
-      "designation": "software engineer",
+      "designation": "software engineer (outsourced: Mswipe Tech.)",
       "duration": "April 2022 - Present",
       "location": "mumbai, MH",
       "responsibility": [
-        "Hands on odoo ERP python (MVC) framework",
         "Tech used odoo ORM, postgresDB, XMl, JS, APIs",
-        "Managing inhouse odoo modules"
+        "Developed and maintained custom Odoo modules, enhancing business processes",
+        "Led the migration of legacy Odoo modules to the latest version for improvement in system performance and user experience",
+        "Optimized database queries within Odoo ORM, reducing data retrieval times by 30%, improving overall system responsiveness",
+        "Integrated third-party APIs into Odoo, automating data exchange and reducing manual input"
       ]
     },
 
@@ -47,19 +49,17 @@ const LeftSectionArguments = {
       "duration": "Sept 2020 - March 2022",
       "location": "noida, UP",
       "responsibility": [
-        "Hands on odoo ERP python (MVC) framework",
-        "Tech used odoo ORM, postgresDB, XMl, JS, APIs",
-        "Odoo modules: sales, purchase, crm, website, accounts, inventory"
+        "Customized and extended Odoo ERP modules, focusing on CRM, Sales, and Accounting to meet client-specific requirements to increase in user satisfaction."
       ]
     },
 
-    {
-      "company": "career transition",
-      "designation": "career break (covid-lockdown)",
-      "duration": "april 2020 - aug 2020",
-      "location": "udaipur, RJ",
-      "responsibility": []
-    },
+    // {
+    //   "company": "career transition",
+    //   "designation": "career break (covid-lockdown)",
+    //   "duration": "april 2020 - aug 2020",
+    //   "location": "udaipur, RJ",
+    //   "responsibility": []
+    // },
 
     {
       "company": "AVA Consulting",

@@ -14,11 +14,11 @@ function HEADER(props) {
             <div className="designation">
             <i className="fa-solid fa-laptop-code"></i>
             &nbsp;{props.user.designation}</div>
-            <div className="contact-details mt-3">
+            <div className="contact-details mt-2">
               <div className="phone"><i className="fa-sharp fa-solid fa-phone"></i>&nbsp;{props.user.phone}</div>
               <div className="email"><i className="fa-solid fa-envelope-circle-check"></i>&nbsp;{props.user.email}</div>
             </div>
-            <div className="address mt-3"><i className="fa-solid fa-location-dot"></i>&nbsp;&nbsp;{props.user.address}</div>
+            <div className="address mt-2"><i className="fa-solid fa-location-dot"></i>&nbsp;&nbsp;{props.user.address}</div>
           </div>
           <div className="col-4 profile-pic">
             <img src={logo} alt="profile-pic" />
