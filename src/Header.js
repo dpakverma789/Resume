@@ -21,7 +21,7 @@ function HEADER(props) {
             <div className="address mt-2"><i className="fa-solid fa-location-dot"></i>&nbsp;&nbsp;{props.user.address}</div>
           </div>
           <div className="col-4 profile-pic">
-            <img src={logo} alt="profile-pic" />
+            {/* <img src={logo} alt="profile-pic" /> */}
           </div>
         </div>
       </section>

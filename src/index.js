@@ -7,7 +7,7 @@ import { HEADER, DOWNLOAD_BUTTON } from './Header.js';
 const user_details = {
   "name": "deepak verma",
   "designation": "software developer",
-  "phone": "+91-8955160103",
+  "phone": "+91-8955160103,",
   "email": "dpakverma789@gmail.com",
   "address": "udaipur, rajasthan (Remote Working)"
 }
@@ -63,7 +63,7 @@ const LeftSectionArguments = {
 
     {
       "company": "AVA Consulting",
-      "designation": "US IT Recruiter",
+      "designation": "",
       "duration": "Sept 2019 - March 2020",
       "location": "noida, UP",
       "responsibility": []
@@ -74,7 +74,7 @@ const LeftSectionArguments = {
 
 const RightSectionArguments = {
   "Projects": [
-    'https://managerpass.vercel.app',
+    'https://password-manager-plus.vercel.app',
     'https://readzara.vercel.app',
     'https://django-project-apis.vercel.app',
     'https://github.com/dpakverma789/mini-projects',
