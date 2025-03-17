@@ -9,7 +9,7 @@ const user_details = {
   "designation": "software developer",
   "phone": "+91-8955160103,",
   "email": "dpakverma789@gmail.com",
-  "address": "udaipur, rajasthan (Remote)"
+  "address": "udaipur, rajasthan (Remote Working)"
 }
 
 const LeftSectionArguments = {
