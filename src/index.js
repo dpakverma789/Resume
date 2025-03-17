@@ -9,7 +9,7 @@ const user_details = {
   "designation": "software developer",
   "phone": "+91-8955160103,",
   "email": "dpakverma789@gmail.com",
-  "address": "udaipur, rajasthan (Remote Working)"
+  "address": "udaipur, rajasthan (Remote)"
 }
 
 const LeftSectionArguments = {
@@ -75,7 +75,7 @@ const LeftSectionArguments = {
 const RightSectionArguments = {
   "Projects": [
     'https://password-manager-plus.vercel.app',
-    'https://readzara.vercel.app',
+    'https://readzaraa.vercel.app',
     'https://django-project-apis.vercel.app',
     'https://github.com/dpakverma789/mini-projects',
     'https://github.com/dpakverma789/Odoo'

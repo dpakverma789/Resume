@@ -71,9 +71,12 @@ function SECTION_RIGHT(props) {
                 <div className='tools-list row'>
                     <div className='col-3'>django</div>
                     <div className='col-5'>RESTframework</div>
-                    <div className='col-3'>reactJs</div>
-                    <div className='col-2'>odoo</div>
-                    <div className='col-3'>requests</div>
+                    <div className='col-3'>reactJS</div>
+                    <div className='col-4'>odoo ERP</div>
+                    <div className='col-2'>API</div>
+                    <div className='col-2'>ORM</div>
+                    <div className='col-2'>RegEx</div>
+                    <div className='col-8'>Data Structure & Algorithm</div>
                 </div>
                 <br />
                 <div className='tech-tools'>used Tools</div>
