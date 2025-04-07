@@ -1,6 +1,7 @@
 import "./resume.css";
 // import logo from './pic.png';
 import resume from "./file/resume.pdf"
+import React from 'react';
 
 
 
