@@ -6,8 +6,8 @@ import { HEADER, DOWNLOAD_BUTTON } from './Header.js';
 
 const user_details = {
   "name": "deepak verma",
-  "designation": "software developer",
-  "phone": "+91-8955160103,",
+  "designation": "python developer",
+  "phone": "+91-8955160103 | +91-6377122637",
   "email": "dpakverma789@gmail.com",
   "address": "udaipur, rajasthan (Remote Working)"
 }
@@ -35,8 +35,8 @@ const LeftSectionArguments = {
       "duration": "April 2022 - Present",
       "location": "mumbai, MH",
       "responsibility": [
-        "Tech used odoo ORM, postgresDB, XMl, JS, APIs",
-        "Developed and maintained custom Odoo modules, enhancing business processes",
+        "Tech used odoo-python ORM, postgresDB, XMl, JS, REST APIs",
+        "Developed and maintained custom Odoo modules, enhancing business processes using Odoo Python",
         "Led the migration of legacy Odoo modules to the latest version for improvement in system performance and user experience",
         "Optimized database queries within Odoo ORM, reducing data retrieval times by 30%, improving overall system responsiveness",
         "Integrated third-party APIs into Odoo, automating data exchange and reducing manual input"
@@ -95,27 +95,33 @@ const RightSectionArguments = {
   "TechGraphic": [
     {
       "icon": "fa-brands fa-html5",
-      "widthPx": 50
+      "widthPx": 50,
+      "name": 'HTML'
     },
     {
       "icon": "fa-brands fa-python",
-      "widthPx": 40
+      "widthPx": 40,
+      "name": 'PYTHON'
     },
     {
       "icon": "fa-brands fa-css3-alt",
-      "widthPx": 50
+      "widthPx": 50,
+      "name": 'CSS'
     },
     {
       "icon": "fa-brands fa-react",
-      "widthPx": 30
+      "widthPx": 30,
+      "name": 'REACT'
     },
     {
       "icon": "fa-brands fa-square-js",
-      "widthPx": 30
+      "widthPx": 30,
+      "name": 'JS'
     },
     {
       "icon": "fa-solid fa-database",
-      "widthPx": 50
+      "widthPx": 50,
+      "name": 'SQL'
     }
   ],
 
@@ -143,6 +149,10 @@ const RightSectionArguments = {
     {
       "CoLSize": "col-2",
       "ColVal": "figma"
+    },
+    {
+      "CoLSize": "col-2",
+      "ColVal": "canva"
     },
     {
       "CoLSize": "col-3",

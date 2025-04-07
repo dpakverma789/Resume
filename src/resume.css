@@ -82,6 +82,7 @@ button{
     gap: 2cm;
     font-size: 15px;
     text-transform: capitalize;
+    width: max-content;
 }
 
 .address {
@@ -167,13 +168,23 @@ ul li{
 
 /* ================= Section right layout start ================= */
 
+.tech-skill{
+    display: block;
+}
+
+.tech-skill > b{
+    padding: 0;
+}
+
 .progress{
-    height: 5px;
-    margin: 10px 0;
+    height: 3px;
+    margin: 5px 40px;
 }
 
 .skill-fa{
     font-size: 25px;
+    position: relative;
+    top: 5px;
 }
 
 .progress-bar{

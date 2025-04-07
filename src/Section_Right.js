@@ -35,6 +35,7 @@ function TECH_SKILLS(props) {
         <>
             <div className='tech-skill row col-6'>
             <i className= {skill.icon+' skill-fa col-3'}></i>
+            <b>{skill.name}</b>
                 <div className="progress col-9">
                     <div className="progress-bar" role="progressbar" style={{ width: skill.widthPx }}
                         aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
