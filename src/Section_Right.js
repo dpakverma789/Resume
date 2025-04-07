@@ -1,4 +1,5 @@
 import './resume.css';
+import React from 'react';
 
 function PROJECTS(props){
     const projects_list =  props.techProjects.arguments.Projects;
@@ -6,7 +7,7 @@ function PROJECTS(props){
         <>
             <div className={'project_'+i}>
             <i className="fa-solid fa-up-right-from-square"></i>&nbsp;&nbsp;&nbsp;
-                <a className='project-url' target="_blank" rel="noreferrer" href={project}>{project.slice(8,)}</a>
+                <a className='project-url' target="_blank" rel="noopener noreferrer" href={project}>{project.slice(8,)}</a>
             </div>
             <div className='sub-seperator-right'/>
         </>
@@ -20,7 +21,7 @@ function LINKS(props){
         <>
             <div className={'link_'+i}>
                 <i className={'other-link-icon '+link.icon}></i>&nbsp;&nbsp;&nbsp;
-                <a className='project-url' target="_blank" rel="noreferrer" href={link.url}>{link.url.slice(8,)}</a>
+                <a className='project-url' target="_blank" rel="noopener noreferrer" href={link.url}>{link.url.slice(8,)}</a>
             </div>
             <div className='sub-seperator-right'/>
         </>
