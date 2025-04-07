@@ -68,7 +68,7 @@ function SECTION_RIGHT(props) {
                     <TECH_SKILLS techSkills = {props}/>
                 </div>
                 <br />
-                <div className='tech-framework'>framework & library</div>
+                <div className='tech-framework'>Other Skills</div>
                 <div className='seperator-right'/>
                 <div className='tools-list row'>
                     <div className='col-3'>django</div>

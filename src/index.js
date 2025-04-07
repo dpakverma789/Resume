@@ -15,7 +15,7 @@ const user_details = {
 const LeftSectionArguments = {
   "Education": [
     {
-      "course": "master of business administration (I.T)",
+      "course": "M.B.A (Information Technology)",
       "university": "narsee monjee inst. of management",
       "duration": "sept 2021 - oct 2023",
       "location": "mumbai, MH"
@@ -39,7 +39,7 @@ const LeftSectionArguments = {
         "Developed and maintained custom Odoo modules, enhancing business processes using Odoo Python",
         "Led the migration of legacy Odoo modules to the latest version for improvement in system performance and user experience",
         "Optimized database queries within Odoo ORM, reducing data retrieval times by 30%, improving overall system responsiveness",
-        "Integrated third-party APIs into Odoo, automating data exchange and reducing manual input"
+        "Integrated third-party REST APIs and Created Odoo API using Controllers to automating data exchange."
       ]
     },
 
@@ -49,6 +49,7 @@ const LeftSectionArguments = {
       "duration": "Sept 2020 - March 2022",
       "location": "noida, UP",
       "responsibility": [
+        "Worked on Python Based Open ERP Framework Odoo",
         "Customized and extended Odoo ERP modules, focusing on CRM, Sales, and Accounting to meet client-specific requirements to increase in user satisfaction."
       ]
     },
@@ -116,7 +117,7 @@ const RightSectionArguments = {
     {
       "icon": "fa-brands fa-square-js",
       "widthPx": 30,
-      "name": 'JS'
+      "name": 'JavaScript'
     },
     {
       "icon": "fa-solid fa-database",
