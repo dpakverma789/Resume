@@ -101,7 +101,7 @@ const RightSectionArguments = {
     },
     {
       "icon": "fa-brands fa-python",
-      "widthPx": 40,
+      "widthPx": 70,
       "name": 'PYTHON'
     },
     {
@@ -111,7 +111,7 @@ const RightSectionArguments = {
     },
     {
       "icon": "fa-brands fa-react",
-      "widthPx": 30,
+      "widthPx": 20,
       "name": 'REACT'
     },
     {
@@ -123,7 +123,7 @@ const RightSectionArguments = {
       "icon": "fa-solid fa-database",
       "widthPx": 50,
       "name": 'SQL'
-    }
+    },
   ],
 
   "ToolList": [
@@ -166,6 +166,10 @@ const RightSectionArguments = {
     {
       "CoLSize": "col-3",
       "ColVal": "windows"
+    },
+    {
+      "CoLSize": "col-2",
+      "ColVal": "AWS"
     }
   ]
 }

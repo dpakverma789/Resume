@@ -78,6 +78,7 @@ function SECTION_RIGHT(props) {
                     <div className='col-2'>API</div>
                     <div className='col-2'>ORM</div>
                     <div className='col-2'>RegEx</div>
+                    <div className='col-3'>Cloud</div>
                     <div className='col-8'>Data Structure & Algorithm</div>
                 </div>
                 <br />
