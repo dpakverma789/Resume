@@ -19,6 +19,10 @@ button{
     transform: translate(60px,20px);
 }
 
+#download-button button{
+    color: #fff;
+}
+
 #root {
     width: 21cm;
     height: 29.5cm;
